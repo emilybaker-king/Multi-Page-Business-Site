@@ -7,12 +7,26 @@ body {
 /*  Targeting a class in CSS - every element with the class of header will recieve these CSS rules */
 .header {
     background-color: darkgoldenrod;
+    overflow: hidden;
+
 }
 
 .headerLink {
-    float: center;
-    padding: 330px;
-    font-size: 15pt;
+    padding: 14px 16px;
+    font-size: 20pt;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-decoration: none;
+    color: azure;
+}
+
+
+/* Target an ID in CSS - the element with the ID of homeLink and aboutLink will recieve CSS rules */
+#homeLink {
+    float: left;
+
+}
+
+#aboutLink {
+    float: right;
+
 }
