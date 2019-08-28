@@ -7,17 +7,32 @@
     margin: 20px;
     display: inline-block;
     border: 3px solid peachpuff;
-    padding: 5px;
+    padding: 15px;
+    border-radius: 25px;
 }
 
 .leftImage {
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
+    border-radius: 25px;
 }
 
 .rightImage {
     float: right;
     margin-left: 10px;
     margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+.thanks {
+    font-family: fantasy;
+    text-align: center;
+}
+
+.bye {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 25px;
 }
